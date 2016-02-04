@@ -1,7 +1,10 @@
 language: node_js
 node_js:
-  - '5'
+- '5'
 sudo: false
 script:
-  - npm install
-  - npm test
+- npm install
+- npm test
+branches:
+  only:
+    - master
